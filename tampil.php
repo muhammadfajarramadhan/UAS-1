@@ -9,7 +9,7 @@
     }
 </style>
 <body style="background-color: silver">
-    <div style="width: 70%; background-color: azure; margin: 10px auto; padding: 20px;"> 
+    <div style="width: 70%; background-color: white; margin: 10px auto; padding: 20px;"> 
         <center>
             <td>
                 <h1>
