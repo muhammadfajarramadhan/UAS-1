@@ -8,7 +8,7 @@
         padding: 8px;
     }
 </style>
-<body style="background-color: silver">
+<body>
     <div style="width: 70%; background-color: white; margin: 10px auto; padding: 20px;"> 
         <center>
             <td>
