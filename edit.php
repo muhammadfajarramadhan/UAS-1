@@ -15,6 +15,12 @@ $data=mysqli_fetch_array($hasil);
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Edit Data</title>
 </head>
+<style>
+    body{
+      height:297mm;
+      width:210mm;
+    }
+</style>
 <body >
     <div style="width: 58%;  margin: 4px auto; padding: 1x;">
         <h1 style="text-align: center">INPUT DATA</h1>
