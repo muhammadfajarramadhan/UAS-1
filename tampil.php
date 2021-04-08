@@ -57,8 +57,11 @@
                     <td><?php echo $data['nama_bank'];?></td>
                     <td><?php echo $data['no_rekening'];?></td>
                     <td>
-                    <a href="edit.php?no=<?php echo $data['no'];?>">Edit</a></br>
-                    <a href="delete.php?no=<?php echo $data['no'];?>">Hapus</a></br>
+                    <input type="submit" name="Edit" class="tombol" value="Edit" style=" width: 60px; height: 25px; background-color: grey; color: white;"
+                    onclick="window.location.href='edit.php?no=<?php echo $data['no'];?>'"><br>
+                    <hr>
+                    <input type="submit" name="Hapus" class="tombol" value="Hapus" style="width: 60px; height: 25px; background-color: red; color: white;"
+                    onclick="window.location.href='delete.php?no=<?php echo $data['no'];?>'">
                     </td>   
                 </tr>
             </tbody>
