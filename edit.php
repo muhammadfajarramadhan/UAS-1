@@ -28,10 +28,11 @@ $data=mysqli_fetch_array($hasil);
             <select name="jenis_zakat" style="width: 99%; height: 20px;">
                 <?php
                 include 'config.php';
-                $jenis = $_GET['jenis_zakat'];
-                $query="SELECT * FROM zakat";
-                $sql=mysqli_query($con, $query);
-                $data=mysqli_fetch_array($sql);
+                include 'config.php';
+                $no = $_GET['no'];
+                $perintah="SELECT * FROM zakat WHERE no ='$no'";
+                $hasil=mysqli_query($con,$perintah);
+                $data=mysqli_fetch_array($hasil);
                     if (isset($data['jenis_zakat'])) 
                     {
                         $select="selected";
