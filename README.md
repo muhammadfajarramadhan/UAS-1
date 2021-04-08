@@ -10,3 +10,9 @@ Fungsi yang ada di php
 -mysqli_query ( ) Melakukan query terhadap database
 -mysqli_real_escape_string ( ) Escapes karakter khusus dalam string untuk digunakan dalam pernyataan SQL
 -mysqli_select_db ( ) Mengubah database default untuk koneksi
+
+WEBSITE application
+
+hendrikkurniawan96.000webhostapp.com
+username :hendrik
+password :12345
