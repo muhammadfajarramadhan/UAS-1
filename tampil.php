@@ -7,6 +7,10 @@
         border: 1px solid black;
         padding: 8px;
     }
+    body{
+      height:297mm;
+      width:210mm;
+    }
 </style>
 <body>
     <div> 
