@@ -42,6 +42,7 @@
             <input type="number" name="rekening" style="width: 99%; height: 20px;" id="rekening" required>
             <div>
                 <button type="submit" name="simpan" style="margin-top: 15px; height: 40px; background-color: green; color: white;">SIMPAN</button>
+                <input type="reset" name="hapus" value="RESET" class="tombol" style="margin-top: 15px; height: 40px; background-color: silver; color: black;">
                 <button type="submit" name="simpan" style="margin-top: 15px; height: 40px; background-color: blue; color: white;" onclick="window.location='tampil.php'">Tampil Data</button>
                 
             </div>
