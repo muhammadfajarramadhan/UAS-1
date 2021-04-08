@@ -16,6 +16,7 @@ if($result){
     echo "<SCRIPT>alert('Data Telah Tersimpan');window.location='input.php'</SCRIPT>";
 }
 else{
-    echo "<SCRIPT>alert('Gagal menyimpan');window.location='input.php'</SCRIPT>";
+    echo "<SCRIPT>alert('Gagal menyimpan... Nomor Sudah Ada... Silahkan Masukan Nomor Baru...!!!');
+    window.location='input.php'</SCRIPT>";
 }
 ?>
