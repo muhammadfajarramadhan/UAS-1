@@ -49,7 +49,7 @@
             </br>
             <div align="left">
                     <button type="submit" name="simpan" style="margin-top: 15px; height: 40px; background-color: red; 
-                    color: white;" onclick="window.location='index.php'">LOG-OUT</button>
+                    color: white;" onclick="window.location='logout.php'">LOG-OUT</button>
             </div>
         </form>
     </div>
