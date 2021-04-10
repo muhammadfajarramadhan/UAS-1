@@ -5,7 +5,7 @@ $perintah="SELECT * FROM zakat WHERE no ='$no'";
 $hasil=mysqli_query($con,$perintah);
 $data=mysqli_fetch_array($hasil);
 ?>
-<form name=article method=post action=update.php>
+<form name=edit method=post action=update.php>
 <input type="hidden" name="ID" value="<?php echo "$data[no]" ?>">
 <!DOCTYPE html>
 <html lang="en">
