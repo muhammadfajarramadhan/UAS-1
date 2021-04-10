@@ -20,7 +20,7 @@
           ?>
          </h1>
       </td>
-      <table rules="all" style="width: 100%; border: 1px solid black; ">
+      <table rules="all" style="width: 100%; border: 1px; solid black; ">
       <tr>
         <td align="center">No</td>
         <td align="center">Jenis Zakat</td>
